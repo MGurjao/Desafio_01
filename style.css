@@ -1,0 +1,91 @@
+body {
+    color:black;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h2 {
+    color:black;
+}
+
+section{
+    background-color:gainsboro;
+    padding: 10px;
+
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    
+    
+}
+.li_traco{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color:black;
+    font-size: 25px ;
+    text-decoration: none;
+    }
+a:hover{
+    color:#CB6229;
+}
+
+img{
+    display: flex;
+    width: 20%;
+    
+
+}
+footer{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+
+}
+
+#face {
+    color: blue;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+#wp{
+    color:green;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+
+}
+#insta{
+    color: blueviolet;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+
+}
+
+form{
+   display:flex;
+   flex-direction: column;
+
+}
+form, button {
+    margin-top: 5px;
+}
